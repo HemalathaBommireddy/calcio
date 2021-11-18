@@ -63,9 +63,10 @@ h1{
     align-self: center;
     padding: 0 0;
     transition: color var(--duration) ease-in-out;
+    text-align: center;
 }
 
-.themes{
+/* .themes{
     display: grid;
     width: 11.5em;
     grid-template-columns: repeat(4, 1fr);
@@ -75,7 +76,7 @@ h1{
     font-size: 0.8em;
     row-gap: 0.15em;
     font-weight:600;
-}
+} */
 
 .themes p{
     grid-row: -2;
@@ -87,10 +88,10 @@ h1{
     transition: color var(--duration) ease-in-out;
 }
 
-.themes span{
+/* .themes span{
     align-self: flex-end;
     font-weight: 700;
-}
+} */
 
 .toggle-div{
     background-color: hsl(223, 31%, 20%);
