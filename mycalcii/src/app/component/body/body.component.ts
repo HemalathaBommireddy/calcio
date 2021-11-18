@@ -6,11 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-
+/**
+ * Input is given as string 
+ * 
+ */
   input:string = '';
   result:string = '';
   ngOnInit(){
-    
+
   }
  
   pressNum(num: string) {
